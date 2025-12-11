@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Household Population Change in Eastern Puerto Rico (2000–2020)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body style="margin:0; font-family: Arial, sans-serif;">
+
+  <!-- TITLE + DESCRIPTION -->
+  <div style="
+      max-width: 900px;
+      margin: 40px auto 20px auto;
+      text-align: center;
+  ">
+    <h1>Household Population Change in Eastern Puerto Rico (2000–2020)</h1>
+
+    <p style="font-size:16px; color:#444; line-height:1.6;">
+      My interactive map shows the population change between 2000 and 2020 in Puerto Rico by municipality,
+      with a focus on Ceiba and the eastern region. Source: U.S. Census (2000–2020).
+    </p>
+  </div>
+
+  <!-- FOLIUM MAP EMBED -->
+  <div style="width:100%; height:80vh;">
+    <iframe
+      src="ceiba_population_change_2000_2020.html"
+      width="100%"
+      height="100%"
+      style="border:none;">
+    </iframe>
+  </div>
+
+</body>
+</html>
